@@ -1,0 +1,40 @@
+body{
+    color: white;
+   background-color: hsl(210, 46%, 95%);; 
+}
+.first{
+    border-radius: 10px;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.second{
+    border-radius: 10px;
+background-color: hsl(217, 19%, 35%);
+}
+.third{
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+}
+.fourth{
+    border-radius: 10px;
+background-color: hsl(219, 29%, 14%);
+}
+.fifth{
+    border-radius: 10px;
+    background-color: white;
+    color: #000;
+}
+.bold{
+    font-weight: bold;
+}
+.img-section{
+float: right;
+width: 85%;
+}
+img{
+    border-radius: 50%;
+}
