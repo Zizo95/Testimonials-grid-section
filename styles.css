@@ -74,14 +74,3 @@ img{
 .img-section{
     padding-left: 70px;
 }
-@media only screen and (max-width:600px) {
-    body{
-        background-color: orange;
-    }
-    section{
-        
-    }
-    .firth{
-        width: 100%;
-    }
-}
