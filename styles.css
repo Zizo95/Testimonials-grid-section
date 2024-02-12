@@ -1,40 +1,87 @@
 body{
+   
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
     color: white;
    background-color: hsl(210, 46%, 95%);; 
 }
+
+
 .first{
     border-radius: 10px;
     background-color: hsl(263, 55%, 52%);
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 35%;
+    margin-left: 150px;
     
 }
 .second{
-    border-radius: 10px;
+border-radius: 10px;
 background-color: hsl(217, 19%, 35%);
+padding: 10px;
+width: 20%;
+height: 33%;
+position: absolute;
+right: 400px;
+top: 10px;
 }
 .third{
     color: black;
     border-radius: 10px;
     background-color: white;
+    padding: 10px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 140px;
+    height: 230px;
+    
 }
 .fourth{
-    border-radius: 10px;
+border-radius: 10px;
 background-color: hsl(219, 29%, 14%);
+padding: 10px;
+margin-right: -30px;
+width: 40%;
+position: absolute;
+right: 440px;
+top: 260px;
+height: 35%;
 }
 .fifth{
     border-radius: 10px;
     background-color: white;
     color: #000;
+    padding: 10px;
+    width: 15%;
+    height: 75%;
+    position: absolute;
+    right: 150px;
+    top: 10px;
 }
 .bold{
     font-weight: bold;
 }
-.img-section{
-float: right;
-width: 85%;
-}
+
 img{
     border-radius: 50%;
+    float: left;
+    
+}
+.img-section{
+    padding-left: 70px;
+}
+@media only screen and (max-width:600px) {
+    body{
+        background-color: orange;
+    }
+    section{
+        
+    }
+    .firth{
+        width: 100%;
+    }
 }
