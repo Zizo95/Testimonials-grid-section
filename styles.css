@@ -6,9 +6,10 @@
     font-size: 13px;
     display: flex;
     justify-content: center;
+    
   }
   section{
-    margin-top: 30px;
+    margin-top: 50px;
     max-width: 70%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -19,10 +20,12 @@ float: right;
 font-weight: bold;
 }
 figure{
-    width: 60%;
+    width: 40%;
 }
 img{
     border-radius: 50%;
+    
+   
 }
 .one{
 background-color: hsl(263, 55%, 52%);
@@ -50,4 +53,10 @@ background-color:hsl(0, 0%, 100%);
 .one, .two, .three, .four, .five{
     padding: 10px;
     border-radius: 10px;
+   
+}
+@media screen and (max-width: 1030px){
+    figure{
+        width:70%;
+    }
 }
