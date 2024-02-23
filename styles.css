@@ -70,9 +70,6 @@ width: 95%;
    
 }
 @media screen and (max-width:1171px) {
-  body{
-    background-color: blue;
-  }
   section{
     display: flex;
     flex-direction: column;
@@ -96,9 +93,6 @@ background-color: brown;
         }
 }
 @media  screen and (max-width:694px) {
-  body{
-    background-color: aqua;
-  }
   figure{
     width:55%;
    } 
@@ -107,9 +101,6 @@ background-color: brown;
         }
 }
 @media screen and (max-width:457px) {
-  body{
-    background-color: black;
-  }
   figure{
     width:95%;
    } 
