@@ -20,7 +20,7 @@ float: right;
 font-weight: bold;
 }
 figure{
-    width: 50%;
+    width: 40%;
     margin: 0;
 }
 img{
@@ -57,8 +57,63 @@ background-color:hsl(0, 0%, 100%);
     border-radius: 10px;
    
 }
-@media screen and (max-width: 1030px){
-    
-    
+.small{
+  width: 85%;
+}
+@media screen and (max-width:1279px){
+   figure{
+    width:50%;
+   } 
+    .small{
+width: 95%;
+    }
    
+}
+@media screen and (max-width:1171px) {
+  body{
+    background-color: blue;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+  figure{
+    width:25%;
+   } 
+   .small{
+    width: 25%;
+        }
+}
+@media screen and (max-width:950px){
+  body{
+background-color: brown;
+  }
+  figure{
+    width:35%;
+   } 
+   .small{
+    width: 35%;
+        }
+}
+@media  screen and (max-width:694px) {
+  body{
+    background-color: aqua;
+  }
+  figure{
+    width:55%;
+   } 
+   .small{
+    width: 55%;
+        }
+}
+@media screen and (max-width:457px) {
+  body{
+    background-color: black;
+  }
+  figure{
+    width:95%;
+   } 
+   .small{
+    width: 95%;
+        }
 }
