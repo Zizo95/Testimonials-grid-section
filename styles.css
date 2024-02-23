@@ -82,9 +82,7 @@ width: 95%;
         }
 }
 @media screen and (max-width:950px){
-  body{
-background-color: brown;
-  }
+  
   figure{
     width:35%;
    } 
